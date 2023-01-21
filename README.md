@@ -15,4 +15,38 @@
         Big Int Type
         Symbol Type
     Non Primitive
-        Objects    
+        Objects
+# Equality
+    == (Allows coercion) 
+    === (Does not allow coercion)
+
+# Conditional Statements
+    if 
+    else
+    else if
+    switch
+
+# Looping Code
+    for
+        for(initializer;condition;final-experssion){}
+    while
+        initializer
+        while(condition){
+            final -experssion
+        }
+    Do..while 
+    for..of loop
+
+
+ # Functions
+    * A Javascript function is a block of code designed to perform particular task
+        Ex : Add two numbers,Multiply Two Numbers
+    * Functions are reusable as they can be defined once and can be called with different values resulting in different results.
+    * Functions help divide a complex problem into smaller chunks and makes your program easy to understand and maintain
+        function name(parameter1,parameter2,parameter3){}     
+
+# Scope 
+    Scope basically determines the accessibility or visibility of variables
+    Block scope
+    Function Scope
+    Global Scope        
