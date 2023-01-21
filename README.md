@@ -47,6 +47,6 @@
 
 # Scope 
     Scope basically determines the accessibility or visibility of variables
-    Block scope
-    Function Scope
-    Global Scope        
+    Block scope : Variable inside a pair of curly braces cannot be accessed from the outside block.
+    Function Scope : Variable declared inside a function cannot be accessed from the outside the function.
+    Global Scope : Globally scoped variable can be accessed inside a block or a function.        
