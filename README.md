@@ -49,4 +49,19 @@
     Scope basically determines the accessibility or visibility of variables
     Block scope : Variable inside a pair of curly braces cannot be accessed from the outside block.
     Function Scope : Variable declared inside a function cannot be accessed from the outside the function.
-    Global Scope : Globally scoped variable can be accessed inside a block or a function.        
+    Global Scope : Globally scoped variable can be accessed inside a block or a function. 
+
+# Closure
+    A Closure is a combination of the fn bundeled together with ref. to its surrounding state.Closures are created every time a fn is created,at func creation time.
+    In Js,When we return a fn from another fn,we are effectively returning a combination of the fn def along with the fn scope.This would let the fn definition along with the fn's scope.This would let the fn definition have an associated persistent memory which could hold on to live data between executions.That Combination of the fn and its scope chain is what is called a closure in javascript.
+
+# Function Currying 
+    Currying is a process in functional programming in which we transform a fn with multiple args into a seq of nesting func that takes one args at a time.
+    function f(a,b,c) to f(a),(b),(c) 
+
+# Order of precedencr
+    New Binding
+    Explicit Binding
+    Implicit Binding 
+    Default Binding
+                      
